@@ -1,0 +1,95 @@
+/* style.css */
+body{
+  background: rgb(215,215,215);
+  color: red;
+  font-size: 10px;
+  font-family: "Raleway", sans-serif;
+  text-align: center
+}
+h1{
+  font-family: Arial;
+  color: blue;
+  font-size: 50px;
+
+}
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 8px;
+}
+h3 {
+  font-family: Courier;
+  color: blue;
+  font-size: 20px;
+}
+
+a {
+  color: yellow;
+
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+p {
+  font-size: 25px;
+}
+
+#banner{
+  background-image: url("https://unsplash.it/1300/600?random");
+  padding: 75px 5px;
+  background-size: cover;
+  color:yellow;
+  text-shadow: 0.5px 0.5px 0.5px gray;
+}
+
+#banner h1 {
+  color: white;
+  font-size: 75px;
+}
+#banner p {
+  color: white;
+  opacity: 0.5;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#footer {
+  padding: 30px;
+  background: rgb(50,50,50);
+  color: lightgrey;
+  margin-right: 20px;
+  font-size:20px;
+  text-align: right;
+
+}
+.card{
+  padding: 5px;
+  font-family: "Raleway"
+  font-weight:light;
+  font-size: 10px;
+  filter: contrast(200%);
+}
+
+#logo{
+  padding-top: 30px;
+}
+#logo h3{
+  font-family: "Liu Jian Mao Cao";
+  color: black;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+
+#footer a {
+  background-color: rgb(30,30,30)
+  color: white;
+  font-size: 30px;
+
+}
+#footer a:hover {
+  color: green;
+}
